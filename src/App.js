@@ -1,9 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import NewJSFeatures from "./NewFeatures"
 
 function App() {
-  
+    return (
+        <div>
+            <NewJSFeatures />
+        </div>
+    )
 }
 
-export default App;
+export default App
